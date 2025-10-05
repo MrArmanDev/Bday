@@ -194,12 +194,13 @@
 }
 
 .ShowLetter {
-  display: inline;
   position: absolute;
-  left: 50%;
+  left: 40%;
   bottom: 150px;
   height: 50px;
-  width: 150px;
+  width: 255px;
+  gap: 20px;
+  display: flex;
 }
 
 .btn {
@@ -267,7 +268,7 @@
 
 .page.left .page-content {
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
   height: 100%;
   padding: 30px 30px;
@@ -401,6 +402,9 @@
   margin-bottom: 40px;
   color: #333;
   text-align: center;
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .right-swap {
@@ -411,4 +415,138 @@
   color: #202020;
   font-style: italic;
   opacity: 0.9;
+}
+
+.memories-container {
+  position: relative;
+  z-index: 200;
+  background: rgba(255, 245, 250, 0.92);
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(255, 182, 193, 0.18);
+  width: 90vw;
+  max-width: 1200px;
+  margin: 40px auto 40px auto;
+  padding: 40px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: auto;
+}
+
+.memory-box {
+  width: 260px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(255, 182, 193, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px 12px 24px 12px;
+  transition: box-shadow 0.3s;
+}
+
+.memory-box:hover {
+  box-shadow: 0 8px 32px rgba(255, 105, 180, 0.22);
+}
+
+.memory-photo {
+  width: 220px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  border: 2px solid #ffe4e1;
+  background: #fff;
+}
+
+.memory-title {
+  font-size: 1.2rem;
+  color: #d2691e;
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-top: 6px;
+}
+
+
+.memories-btn-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.memories-next-btn {
+  padding: 12px 36px;
+  font-size: 1.2rem;
+  font-family: "Delius", cursive;
+  background: linear-gradient(90deg, #ffb6c1 0%, #ff69b4 100%);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  box-shadow: 0 2px 12px rgba(255, 182, 193, 0.18);
+  cursor: pointer;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.memories-next-btn:hover {
+  background: linear-gradient(90deg, #ff69b4 0%, #ffb6c1 100%);
+  box-shadow: 0 6px 24px rgba(255, 105, 180, 0.22);
+}
+
+
+.memories-title-only {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.memories-title-only h2 {
+  font-size: 2rem;
+  color: #d2691e;
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: 24px;
+}
+
+.memories-show-btn {
+  padding: 12px 36px;
+  font-size: 1.2rem;
+  font-family: 'Dancing Script', cursive;
+  background: linear-gradient(90deg, #ffb6c1 0%, #ff69b4 100%);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  box-shadow: 0 2px 12px rgba(255, 182, 193, 0.18);
+  cursor: pointer;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.memories-show-btn:hover {
+  background: linear-gradient(90deg, #ff69b4 0%, #ffb6c1 100%);
+  box-shadow: 0 6px 24px rgba(255, 105, 180, 0.22);
+}
+
+.memories-close-btn {
+  padding: 12px 36px;
+  font-size: 1.2rem;
+  font-family: 'Dancing Script', cursive;
+  background: linear-gradient(90deg, #ffb6c1 0%, #ff69b4 100%);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  box-shadow: 0 2px 12px rgba(255, 182, 193, 0.18);
+  cursor: pointer;
+  margin-top: 16px;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.memories-close-btn:hover {
+  background: linear-gradient(90deg, #ff69b4 0%, #ffb6c1 100%);
+  box-shadow: 0 6px 24px rgba(255, 105, 180, 0.22);
 }

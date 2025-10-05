@@ -29,6 +29,7 @@
 
   <div class="ShowLetter">
     <button class="btn" (click)="showNotebook()">Show Letter</button>
+    <button class="btn" (click)="openMemories()">Memories</button>
   </div>
 
   <div class="notebook" [style.display]="isNotebookVisible ? 'flex' : 'none'">
@@ -55,7 +56,28 @@
     </div>
   </div>
 
-  @if (showBalloons()) {
+  @if (memoriesSec) {
+  <div class="memories-container">
+    @if (showMemories) { @for (memory of memories[currentIndex].photos; track $index) {
+    <div class="memory-box">
+      <img [src]="memory.photo" alt="Memory Photo" class="memory-photo" />
+      <div class="memory-title">{{ memory.title }}</div>
+    </div>
+    }
+    <div class="memories-btn-row">
+      <button class="memories-next-btn" (click)="showTitleHandle()">Next step</button>
+    </div>
+    <div class="memories-btn-row">
+      <button class="memories-close-btn" (click)="closeMemories()">Close Memories</button>
+    </div>
+    } @else {
+    <div class="memories-title-only">
+      <h2>{{ memories[currentIndex].title }}</h2>
+      <button class="memories-show-btn" (click)="showMemoriesPhoto()">Show</button>
+    </div>
+    }
+  </div>
+  } @if (showBalloons()) {
   <div id="balloon-container">
     @for (style of balloons(); track $index) {
     <div class="balloon" [style]="style"></div>
