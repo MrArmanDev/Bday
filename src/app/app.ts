@@ -140,7 +140,7 @@ export class App implements OnInit {
       left: 'm2.jpeg',
       right: {
         title: '',
-        mess: "ye kuch din pahle kka hi baat 🤣🤣 exam tha tera 🤣🤣🤣🤣",
+        mess: "ye kuch din pahle kka hi baat 🤣🤣 exam tha tera 🤣🤣🤣🤣 our tu padhne gyi thi fir 2 baje ke baad mene mess na kiya soch ke padh rahi hogi wo our ek hi baar sam ko ye mess aaata 😂😂😂",
         page: 'Swap -->',
       },
     },
@@ -166,7 +166,7 @@ export class App implements OnInit {
       right: {
         title: '',
         mess: 'Yaar our kya  bolu samjh me hi nhi aa raha bolne ko to bahot kuch par samjh nhi a raha kaha se baat karu',
-        page: 'swap -->',
+        page: 'last 🤚',
       },
     },
     
