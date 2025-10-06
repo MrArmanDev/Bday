@@ -152,14 +152,7 @@ export class App implements OnInit {
         page: 'Swap -->',
       },
     },
-    {
-      left: 'm4.jpg',
-      right: {
-        title: '',
-        mess: "🤣🤣🤣🤣🤣🤣🤣🤣 ye  🤣🤣🤣🤣🤣🤣 ",
-        page: 'Swap -->',
-      },
-    },
+    
     {
       left: 'a8.jpg',
       right: {
