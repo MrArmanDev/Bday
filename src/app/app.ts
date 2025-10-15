@@ -128,30 +128,7 @@ export class App implements OnInit {
         page: 'Swap -->',
       },
     },
-    {
-      left: 'm1.jpeg',
-      right: {
-        title: '',
-        mess: "kya ye tujhe yaad hai kibka hai yaar us din ki baat me kabhi bhool hi nhi sakta kaise bolti us din tu aati our bolti mene bahot kha liya ab mujhe ulti hoga me bolta nimbu pani pile to bolti pani pine tak ka jagah nhi to me bolta nimbu ka ras pi le me fir bolti pet me ras ka bhi jagah nhi tu hil bhi na pa rahi 🤣🤣🤣🤣🤣🤣 me tere jo ek aurat ke bare me batata jo nbahot moti to bolti tujhe to pata hi me moti nhi usse compare band kar 🤣🤣🤣🤣🤣🤣 ",
-        page: 'Swap -->',
-      },
-    },
-    {
-      left: 'm2.jpeg',
-      right: {
-        title: '',
-        mess: "ye kuch din pahle kka hi baat 🤣🤣 exam tha tera 🤣🤣🤣🤣 our tu padhne gyi thi fir 2 baje ke baad mene mess na kiya soch ke padh rahi hogi wo our ek hi baar sam ko ye mess aaata 😂😂😂",
-        page: 'Swap -->',
-      },
-    },
-    {
-      left: 'm3.jpeg',
-      right: {
-        title: '',
-        mess: "ye  to khud tune banwaya tha 🤣🤣 isko  to frame banwana chahiye mmujhee 🤣🤣🤣🤣🤣🤣🤣🤣",
-        page: 'Swap -->',
-      },
-    },
+    
     
     {
       left: 'a8.jpg',
