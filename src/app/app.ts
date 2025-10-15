@@ -188,19 +188,19 @@ export class App implements OnInit {
       photos: [
         {
           photo: 'a1.jpg',
-          title: 'ye tune mujhe apne pichle bday pe bheja tha',
+          title: '',
         },
         {
           photo: 'a2.jpg',
-          title: 'ye kisi mandir ka hai yaha ka video bhi bheja tha',
+          title: '',
         },
         {
           photo: 'a3.jpg',
-          title: 'cute to hai ye larki',
+          title: '',
         },
         {
           photo: 'a4.jpg',
-          title: 'me kya bolu iske bare me',
+          title: '',
         },
         {
           photo: 'a5.jpg',
@@ -252,7 +252,7 @@ export class App implements OnInit {
         },
         {
           photo: 'a17.jpg',
-          title: 'yee kitni sundar',
+          title: '',
         },
         {
           photo: 'a18.jpg',
@@ -265,11 +265,11 @@ export class App implements OnInit {
       photos: [
         {
           photo: 'g1.jpeg',
-          title: 'waise ye mene ya soch ke liya',
+          title: '',
         },
         {
           photo: 'g2.jpeg',
-          title: 'iska dusra photo bhi hai jisme me gussa',
+          title: '',
         },
         {
           photo: 'g3.jpeg',
@@ -277,7 +277,7 @@ export class App implements OnInit {
         },
         {
           photo: 'g4.jpeg',
-          title: 'aare ye to yahi hai',
+          title: '',
         },
         {
           photo: 'g5.jpeg',
@@ -290,7 +290,7 @@ export class App implements OnInit {
       photos: [
         {
           photo: 'f1.webp',
-          title: 'ye ktnaa mast hai',
+          title: '',
         },
         {
           photo: 'f2.webp',
@@ -298,7 +298,7 @@ export class App implements OnInit {
         },
         {
           photo: 'f3.webp',
-          title: 'isko banane me chatgpt ne itna dimag khaya tha sir for deta me  uska',
+          title: '',
         },
         {
           photo: 'f4.webp',
